@@ -137,8 +137,8 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-[#050816] text-white">
-      <header className="sticky top-0 z-50 border-b border-white/10 bg-[#050816]/95 backdrop-blur-lg">
+    <div className="min-h-screen" style={{ background: 'var(--color-background)', color: 'var(--color-text-primary)' }}>
+      <header className="sticky top-0 z-50 border-b backdrop-blur-lg" style={{ borderColor: 'var(--color-border)', backgroundColor: 'color-mix(in srgb, var(--color-background) 95%, transparent)' }}>
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-4">
           <div className="flex items-center gap-3">
             {logoUrl ? (
@@ -322,7 +322,7 @@ export default function Home() {
         )}
       </main>
 
-      <footer className="border-t border-slate-800 bg-[#050816] py-6 px-6">
+      <footer className="border-t" style={{ borderColor: 'var(--color-border)', background: 'var(--color-background)' }}>
         <div className="mx-auto flex max-w-7xl flex-col gap-4 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between">
           <p>{dexName} · Built for deployment workflows.</p>
           <p>Connected wallet: {isConnected ? userAddress : 'not connected'}</p>
