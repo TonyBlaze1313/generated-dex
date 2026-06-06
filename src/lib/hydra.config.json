@@ -1,0 +1,60 @@
+{
+  "configVersion": "1.0.0",
+  "name": "NovaDex",
+  "chain": "arcTestnet",
+  "chainId": 5042002,
+  "network": "arcTestnet",
+  "deployer": "0xB2E75c8824A395822869C80C33B461c53B72B572",
+  "modules": [],
+  "enabledModules": [],
+  "moduleMetadata": {},
+  "tokenAName": "TKA",
+  "tokenASymbol": "TKA",
+  "tokenBName": "TKB",
+  "tokenBSymbol": "TKB",
+  "tokens": [
+    {
+      "name": "TokenA",
+      "symbol": "TKA",
+      "address": "0xFE1217008D43BDC610f0b224725c0f87d8211aF6"
+    },
+    {
+      "name": "TokenB",
+      "symbol": "TKB",
+      "address": "0x67576d86d37b649ca78f3f78d38F1a7154Cd2F8c"
+    },
+    {
+      "symbol": "USDC",
+      "address": "0xE0f27d450b6EcCE8676d0Eb17f4B6d7798528361"
+    }
+  ],
+  "pool": {
+    "volatileFeeBps": 30,
+    "stableFeeBps": 5,
+    "supportedPairs": []
+  },
+  "liquidity": {
+    "initialAmountA": "1000",
+    "initialAmountB": "1000"
+  },
+  "gasConfig": {},
+  "contracts": {
+    "factory": "0x374183D72FB103e64e821184b65354e2eC4BC0EC",
+    "router": "0xF9b7Bd09358E8E5af170040c767d950Bf6dA7a60",
+    "pair": "0xeFa9719ED8Bd15c79A78a9E71390A699b64eB4a3",
+    "faucet": "0x35243896055F22FA9998393E7EBe770a4f00E010",
+    "pointsTracker": "0x9269d868d1d01795d37551e59E873242e1233287",
+    "oracle": "0x98EB0122D05035137292CC1f45E4e6d2bac9C455",
+    "yieldFarm": "0x05f34c95170aD74709FB2d7d3DB629e0E158E1FF",
+    "stakingRewards": "",
+    "tokenA": "0xFE1217008D43BDC610f0b224725c0f87d8211aF6",
+    "tokenB": "0x67576d86d37b649ca78f3f78d38F1a7154Cd2F8c",
+    "demoTrading": "",
+    "lendingPool": "",
+    "copyTrading": "",
+    "astrodexNFT": "",
+    "astrodexMarketplace": ""
+  },
+  "generatedAt": "2026-06-06T08:38:45.882Z",
+  "verification": {}
+}
