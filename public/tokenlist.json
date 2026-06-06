@@ -1,0 +1,30 @@
+{
+  "name": "novadex Token List",
+  "timestamp": "2026-06-05T00:58:07.448Z",
+  "tokens": [
+    {
+      "chainId": 5042002,
+      "address": "0xFE1217008D43BDC610f0b224725c0f87d8211aF6",
+      "symbol": "TKA",
+      "name": "TokenA",
+      "decimals": 18,
+      "logoURI": "http://localhost:3000/tokens/tka.svg"
+    },
+    {
+      "chainId": 5042002,
+      "address": "0x67576d86d37b649ca78f3f78d38F1a7154Cd2F8c",
+      "symbol": "TKB",
+      "name": "TokenB",
+      "decimals": 18,
+      "logoURI": "http://localhost:3000/tokens/tkb.svg"
+    },
+    {
+      "chainId": 5042002,
+      "address": "0xE0f27d450b6EcCE8676d0Eb17f4B6d7798528361",
+      "symbol": "USDC",
+      "name": "USDC",
+      "decimals": 18,
+      "logoURI": "http://localhost:3000/tokens/usdc.svg"
+    }
+  ]
+}

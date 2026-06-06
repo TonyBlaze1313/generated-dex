@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #0f0a1e;
+  --color-foreground: #f0e6ff;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  background-color: #0f0a1e;
+  color: #f0e6ff;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
